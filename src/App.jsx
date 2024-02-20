@@ -79,10 +79,10 @@ function App() {
     <>
     <div style={{height:'100vh'}} className='bg-dark d-flex justify-content-center align-items-center'>
       <div className='bg-light p-5 rounded' style={{width:'500px'}} >
-        <h1>Simple Interest App</h1>
+        <h1> Simple Interest App</h1>
         <p>Calculate your simple interest Easily</p>
         <div style={{height:'150px'}} className='bg-warning rounded mt-5 d-flex justify-content-center align-items-center flex-column '>
-            <h1>{interest}</h1>
+            <h1>₹{interest}</h1>
             <p>Total simple interest</p>
         </div>
         <form onSubmit={handleCalculate}>
